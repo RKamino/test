@@ -50,7 +50,7 @@
 *******************************************************************/
 void main(void)
 {
-	printf("Hellow world\n");
+	printf("Hello world\n");
 	
 	return;
 }
