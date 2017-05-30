@@ -52,10 +52,12 @@ void main(void)
 {
 	int ic;
 	
+	printf("START ----------------\n");
 	for(ic=0; ic<V_LOOP_LIMIT; ic++)
 	{
 		printf("No.%04d\tHello world\n", ic);
 	}
+	printf("END   ----------------\n");
 	
 	return;
 }
