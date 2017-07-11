@@ -21,7 +21,8 @@
 /****************************************************************
 	Private Structure, Defines & Macro
 ****************************************************************/
-#define	V_LOOP_LIMIT	30000
+#define	V_HELLO_LOOP_LIMIT	20
+#define	V_BYE_LOOP_LIMIT	20
 
 /****************************************************************
 	Private contents, Static contents
@@ -54,9 +55,13 @@ void main(void)
 	int ic;
 	
 	printf("START\t\t----------------\n");
-	for(ic=0; ic<V_LOOP_LIMIT; ic++)
+	for(ic=0; ic<V_HELLO_LOOP_LIMIT; ic++)
 	{
-		printf("No.%04d\tHello world\n", ic);
+		printf("No.%04d\tHello\n", ic);
+	}
+	for(ic=0; ic<V_BYE_LOOP_LIMIT; ic++)
+	{
+		printf("No.%04d\tBye\n", ic);
 	}
 	printf("END\t\t----------------\n");
 	
