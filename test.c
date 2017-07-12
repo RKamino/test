@@ -21,7 +21,7 @@
 /****************************************************************
 	Private Structure, Defines & Macro
 ****************************************************************/
-#define	V_HELLO_LOOP_LIMIT	20
+#define	V_FEATURE_A_LOOP_LIMIT	20
 #define	V_BYE_LOOP_LIMIT	20
 
 /****************************************************************
@@ -55,9 +55,9 @@ void main(void)
 	int ic;
 	
 	printf("START\t\t----------------\n");
-	for(ic=0; ic<V_HELLO_LOOP_LIMIT; ic++)
+	for(ic=0; ic<V_FEATURE_A_LOOP_LIMIT; ic++)
 	{
-		printf("No.%04d\tHello\n", ic);
+		printf("No.%04d\tFeature_A!!!!\n", ic);
 	}
 	for(ic=0; ic<V_BYE_LOOP_LIMIT; ic++)
 	{
