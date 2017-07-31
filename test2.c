@@ -48,7 +48,7 @@
 	@author			X.Xxxx
 	@note			xxxx
 	@par History
-					- YYYY/MM/DD	Name		Detail
+					- 2017/07/31	R.Kamino		New!!
 *******************************************************************/
 void main(void)
 {
