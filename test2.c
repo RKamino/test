@@ -11,7 +11,7 @@
 	@note			xxxx
 	@copyright		2015 JVCKENWOOD CORPORATION. All Rights Reserved.
 	@par History
-					- YYYY/MM/DD	Name		Detail
+					- 2017/07/31	R.Kamino		New!!
 *******************************************************************/
 /****************************************************************
 	Header
